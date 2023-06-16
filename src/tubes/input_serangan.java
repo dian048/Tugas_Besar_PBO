@@ -9,7 +9,7 @@ public class input_serangan extends Maps{
         int x=-1,y=-1;
         while((x < 0 || x >= shipX) || (y < 0 || y >= shipY)){
             Scanner input = new Scanner(System.in);
-            System.out.println("Masukan Titik Serangan China Player 1  !! " );
+            System.out.println("Masukan Titik Serangan China  !! " );
             System.out.print("input posisi x : ");
             x = input.nextInt();
             System.out.print("input posisi y : ");

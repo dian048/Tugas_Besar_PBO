@@ -1,11 +1,13 @@
 package tubes;
 import java.util.*;
 public class save_koordinat extends Maps{
+
     public static void saveKordinatC(){
         Scanner input = new Scanner(System.in);
+
         Maps.jum_ship_china = 5;
         for(int i = 1; i <= Maps.jum_ship_china; ){
-            System.out.println("Kapal Cina "+ i +" Tempatkan kordinat");
+            System.out.println("Kapal Cina "+ i +" Tempatkan kordinat" );
             System.out.print("input posisi x = ");
             int x = input.nextInt();
             System.out.print("input posisi y = ");
@@ -21,7 +23,7 @@ public class save_koordinat extends Maps{
                 System.out.println("Lokasi ini sudah diisi");
             else if((x < 0 || y >= shipX) ||
                     (y < 0 || y >= shipY))
-                System.out.println("Kamu tidak bisa menempat lokasi/kordinat diatas " + shipX
+                System.out.println("Kamu tidak bisa menempati lokasi/kordinat di atas " + shipX
                         + " dan " + shipY+"dihitung dari 0-4");
         }
     }
@@ -29,7 +31,7 @@ public class save_koordinat extends Maps{
         Scanner input = new Scanner(System.in);
         Maps.jum_ship_amerika = 5;
         for(int i = 1; i <= Maps.jum_ship_amerika; ){
-            System.out.println("Kapal Amerika "+ i +" Tempatkan kordinat");
+            System.out.println("Kapal Amerika "+ i +" Tempatkan kordinat" );
             System.out.print("input posisi x = ");
             int x = input.nextInt();
             System.out.print("input posisi y = ");
