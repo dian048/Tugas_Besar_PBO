@@ -5,6 +5,7 @@ public class Main {
 
     public static void main(String[] args){
         System.out.println("Game Battleship Laut China Selatan");
+        System.out.println("Hai");
 
         Maps map = new Maps();
         map.Maps();
