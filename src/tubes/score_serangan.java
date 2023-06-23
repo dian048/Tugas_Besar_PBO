@@ -27,7 +27,6 @@ public class score_serangan extends Maps{
         gameOver();
     }
     public static void gameOver(){
-
         if(Maps.jum_ship_china > 0 && Maps.jum_ship_amerika <= 0)
             System.out.println("China Memenangkan Pertempuran :)");
         else if(Maps.jum_ship_amerika > 0 && Maps.jum_ship_china <= 0)

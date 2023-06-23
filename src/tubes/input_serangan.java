@@ -4,8 +4,6 @@ import java.util.Scanner;
 public class input_serangan extends Maps{
 
     public static void chinaTurn(){
-
-        System.out.println("Masukan Titik Serangan!!");
         int x=-1,y=-1;
         while((x < 0 || x >= shipX) || (y < 0 || y >= shipY)){
             Scanner input = new Scanner(System.in);
@@ -37,7 +35,7 @@ public class input_serangan extends Maps{
         }
     }
     public static void amerikaTurn(){
-        System.out.println("Masukan Titik Serangan America  !!");
+
         int x=-1,y=-1;
         while((x < 0 || x >= shipX) || (y < 0 || y >= shipY)){
             Scanner input = new Scanner(System.in);

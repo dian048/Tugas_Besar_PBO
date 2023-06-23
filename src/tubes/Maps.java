@@ -1,6 +1,7 @@
 package tubes;
 import  java.util.Scanner;
 
+
 public class Maps {
 
     protected static int shipX = 8;
@@ -10,7 +11,7 @@ public class Maps {
     protected static int[][] miss = new int[shipX][shipY];
     protected static char[][] ship = new char[shipX][shipY];
 
-    public static void Maps(){
+    public void Maps(){
         System.out.print("  ");
         for(int i = 1; i < shipY; i++)
             System.out.print(i);

@@ -1,7 +1,8 @@
 package tubes;
 
 public class Maps_hasil extends Maps{
-    public static void printMaps(){
+    @Override
+    public  void Maps(){
         System.out.println();
 
         System.out.print("  ");
