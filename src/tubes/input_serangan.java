@@ -2,12 +2,11 @@ package tubes;
 
 import java.util.Scanner;
 public class input_serangan extends Maps{
-
     public static void chinaTurn(){
         int x=-1,y=-1;
         while((x < 0 || x >= shipX) || (y < 0 || y >= shipY)){
             Scanner input = new Scanner(System.in);
-            System.out.println("Masukan Titik Serangan China  !! " );
+            System.out.println("Masukan Titik Serangan China ( " + Maps.player1 +" ) !! " );
             System.out.print("input posisi x : ");
             x = input.nextInt();
             System.out.print("input posisi y : ");
@@ -29,8 +28,7 @@ public class input_serangan extends Maps{
                     ship[x][y] = '-';
                 }
                 else if((x < 0 || x >= shipX) || (y < 0 || y >= shipY))
-                    System.out.println("Kamu tidak bisa menempat lokasi/kordinat diatas " + shipX
-                            + " dan " + shipY+"dihitung dari 0-4");
+                    System.out.println("Kamu tidak bisa menempat lokasi /kordinat diatas 7 " );
             }
         }
     }
@@ -39,7 +37,7 @@ public class input_serangan extends Maps{
         int x=-1,y=-1;
         while((x < 0 || x >= shipX) || (y < 0 || y >= shipY)){
             Scanner input = new Scanner(System.in);
-            System.out.println("Masukan Titik Serangan Amerika!!");
+            System.out.println("Masukan Titik Serangan Amerika ( " + Maps.player2 +" ) !! " );
             System.out.print("input posisi x : ");
             x = input.nextInt();
             System.out.print("input posisi y : ");
@@ -61,8 +59,7 @@ public class input_serangan extends Maps{
                     ship[x][y] = '-';
                 }
                 else if((x < 0 || x >= shipX) || (y < 0 || y >= shipY))
-                    System.out.println("Kamu tidak bisa menempat lokasi/kordinat diatas " + shipX
-                            + " dan " + shipY+"dihitung daari 0-4");
+                    System.out.println("Kamu tidak bisa menempat lokasi/kordinat diatas 7 " );
             }
         }
 

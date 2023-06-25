@@ -2,7 +2,6 @@ package tubes;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args){
         System.out.println("\t\t\t\t\t\t\t\tGame Battleship Laut China Selatan");
 
@@ -20,6 +19,8 @@ public class Main {
         Maps map = new Maps();
         //memanggil maps
         map.Maps();
+
+        Maps.inputPlayer();
 
         save_koordinat save = new save_koordinat();
         //memanggil input kapal cina
