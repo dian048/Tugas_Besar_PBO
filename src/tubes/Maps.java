@@ -2,8 +2,7 @@ package tubes;
 import  java.util.Scanner;
 
 
-public class Maps {
-
+public class Maps implements peta{
 
     protected static int shipX = 8;
     protected static int shipY = 8;
@@ -17,7 +16,7 @@ public class Maps {
     public static String player2;
 
 
-
+    @Override
     public void Maps(){
         System.out.print("  ");
         for(int i = 1; i < shipY; i++)
