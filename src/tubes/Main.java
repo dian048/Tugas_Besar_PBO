@@ -20,6 +20,7 @@ public class Main {
         //memanggil maps
         map.Maps();
 
+        //memanggil fungsi input nama player
         Maps.inputPlayer();
 
         save_koordinat save = new save_koordinat();

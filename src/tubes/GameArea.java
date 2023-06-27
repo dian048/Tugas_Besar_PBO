@@ -1,5 +1,5 @@
 package tubes;
 
-public interface peta{
+public interface GameArea {
     void Maps();
 }

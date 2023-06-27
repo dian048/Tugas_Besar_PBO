@@ -2,7 +2,7 @@ package tubes;
 import  java.util.Scanner;
 
 
-public class Maps implements peta{
+public class Maps implements GameArea {
 
     protected static int shipX = 8;
     protected static int shipY = 8;
