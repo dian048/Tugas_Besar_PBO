@@ -1,9 +1,6 @@
 package tubes;
 import java.util.*;
 public class save_koordinat extends Maps{
-
-
-
     public static void saveKordinatC(){
         Scanner input = new Scanner(System.in);
 
@@ -53,5 +50,12 @@ public class save_koordinat extends Maps{
                     (y < 0 || y >= shipY))
                 System.out.println("Kamu tidak bisa menempati lokasi/kordinat di atas 7");
         }
+    }
+
+    public  void setPlayer1(String player1){
+        Maps.player1= player1;
+    }
+    public  void setPlayer2(String player2){
+        Maps.player2= player2;
     }
 }

@@ -41,14 +41,5 @@ public class Maps implements GameArea {
             System.out.print(i);
         System.out.println();
     }
-
-    public static void inputPlayer(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Masukkan nama player 1 : ");
-        player1 = scanner.nextLine();
-        System.out.print("Masukkan nama player 2 : ");
-        player2 = scanner.nextLine();
-
-    }
 }
 

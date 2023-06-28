@@ -2,6 +2,8 @@ package tubes;
 import java.util.Scanner;
 
 public class Main {
+    private  static String player1;
+    private  static String player2;
     public static void main(String[] args){
         System.out.println("\t\t\t\t\t\t\t\tGame Battleship Laut China Selatan");
 
@@ -21,11 +23,20 @@ public class Main {
         map.Maps();
 
         //memanggil fungsi input nama player
-        Maps.inputPlayer();
-
+//        Maps.inputPlayer();
+        Scanner input = new Scanner(System.in);
         save_koordinat save = new save_koordinat();
+        System.out.print("Masukkan nama player1 : ");
+        Main.player1 = input.nextLine();
+        save.setPlayer1(Main.player1) ;
+
         //memanggil input kapal cina
         save.saveKordinatC();
+
+        System.out.print("Masukkan nama player 2 : ");
+        Main.player2 = input.nextLine();
+        save.setPlayer2(Main.player2) ;
+
         //memanggil input kapal amerika
         save.saveKordinatA();
 
